@@ -1,0 +1,47 @@
+.footer{
+  display: flex;
+  height: 250px;
+  width: 100%;
+  padding-top: 60px;
+  padding-bottom: 50px;
+  text-align: center;
+  justify-content: center;
+  background-color: #c41818;
+  flex-direction: column;
+  font-size: 30px;
+  font-weight: 500;
+  font-family: 'Readex Pro', sans-serif;
+  cursor: default;
+  color: #131313;
+  overflow: hidden;
+}
+.footer__text1{
+  font-family: 'Quicksand', sans-serif;
+  font-size: 24px;
+}
+.footer__text2{
+  font-family: 'Bebas Neue', cursive;
+  background-color: rgb(171, 59, 59);
+  font-size: 3rem;
+  padding: 10px;
+}
+.footer__text3{
+  margin-left: 10px;
+  margin-right: 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  font-family: 'Quicksand', sans-serif;
+  font-size: 16px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+.footer__icons{
+  margin: 10px;
+  color: #131313;
+  text-decoration: none;
+  transition: 500ms;
+  transition: color yellow;
+  font-size: 1.15em;
+}
+

@@ -1,0 +1,37 @@
+.button {
+    font: bold 20px $fuenteTipo;
+    text-decoration: none;
+    background-color: #c41818;
+    color: white;
+    padding: 2px 6px 2px 6px;
+    border-radius: 4px;
+    border-top: 5px solid #CCCCCC;
+    border-right: 3px solid #333333;
+    border-bottom: 5px solid #333333;
+    border-left: 3px solid #CCCCCC;
+}
+.botonesFlex{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    align-content: center;
+    justify-content: space-around;
+}
+.button1 {
+    @extend .button;
+    background-color: yellow;
+    color: black;
+    margin:15px 15px;
+}
+
+.button2 {
+    @extend .button;
+    background-color: gainsboro;
+    color:$colorFondo;
+}
+
+.btnContact{
+    @extend .button;
+    box-shadow: 5px 10px 35px;
+
+}
