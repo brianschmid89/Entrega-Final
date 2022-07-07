@@ -290,6 +290,8 @@ video {
   font-size: 1.15em; }
 
 @media only screen and (max-width: 991px) {
+  .navbar {
+    width: auto; }
   .row {
     display: flex;
     flex-direction: column;
@@ -297,11 +299,13 @@ video {
     align-content: center; }
   .mapaSede2 {
     height: 600px;
-    width: 905px; } }
+    width: 900px; } }
 
 @media only screen and (max-width: 768px) {
   body {
     background-color: black; }
+  .navbar {
+    width: auto; }
   .logoSize {
     height: auto;
     width: 100%; }
@@ -320,7 +324,7 @@ video {
     color: azure; }
   .mapaSede2 {
     height: 500px;
-    width: 700px; }
+    width: auto; }
   /* QUIENESSOMOS 768px RESPONSIVE */
   .Quienesh1p {
     color: azure; }
@@ -348,7 +352,7 @@ video {
   header {
     width: 100%; }
   .navnav {
-    width: 100%; }
+    width: auto; }
   .logoSize {
     height: auto;
     width: 100%; }
