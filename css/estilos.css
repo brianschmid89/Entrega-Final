@@ -55,7 +55,7 @@ body {
     opacity: 1; } }
 
 .button, .button1, .button2, .btnContact {
-  font: bold 20px "Roboto", sans-serif;
+  font: bold 15px "Roboto", sans-serif;
   text-decoration: none;
   background-color: #c41818;
   color: white;
@@ -71,12 +71,12 @@ body {
   flex-direction: row;
   align-items: center;
   align-content: center;
-  justify-content: space-around; }
+  justify-content: space-evenly; }
 
 .button1 {
   background-color: yellow;
   color: black;
-  margin: 15px 15px; }
+  margin: 10px 10px; }
 
 .button2 {
   background-color: gainsboro;
