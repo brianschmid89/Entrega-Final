@@ -201,8 +201,10 @@ video {
 .h1Sede1 {
   margin: 1.75rem; }
 
-.mapaSede1 {
-  margin: 1.75rem; }
+.mapaSede2 {
+  width: 1000px;
+  height: 800px;
+  margin: 1.25rem; }
 
 /* CSS QUIENES SOMOS */
 .Quienes h1 {
@@ -292,7 +294,10 @@ video {
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
-    align-content: center; } }
+    align-content: center; }
+  .mapaSede2 {
+    height: 600px;
+    width: 905px; } }
 
 @media only screen and (max-width: 768px) {
   body {
@@ -313,6 +318,9 @@ video {
   /* SEDES 768px RESPONSIVE */
   .mapaSedes {
     color: azure; }
+  .mapaSede2 {
+    height: 500px;
+    width: 700px; }
   /* QUIENESSOMOS 768px RESPONSIVE */
   .Quienesh1p {
     color: azure; }
@@ -385,6 +393,9 @@ video {
   .mapaSedes {
     color: azure;
     font-size: 1.7rem; }
+  .mapaSede2 {
+    height: 220px;
+    width: 360px; }
   iframe {
     box-sizing: border-box;
     width: 50vh;

@@ -6,7 +6,10 @@
   flex-wrap: wrap;
   align-content: center;
 }
-
+.mapaSede2{
+  height: 600px;
+  width: 905px;
+}
 }
 
 @media only screen and (max-width: 768px) {
@@ -35,6 +38,10 @@
 .mapaSedes {
       color: azure;
     }
+.mapaSede2{
+    height: 500px;
+    width: 700px;
+}
     /* QUIENESSOMOS 768px RESPONSIVE */
 .Quienesh1p {
       color: azure;
@@ -147,6 +154,11 @@ header {
       color: azure;
       font-size: 1.7rem;
   }
+
+  .mapaSede2{
+    height: 220px;
+    width: 360px;
+}
 
 
 iframe {
